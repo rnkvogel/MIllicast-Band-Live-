@@ -1,4 +1,4 @@
-# MIllicast-Band-Live-
+# MIllicast-Band-Live
 MIllicast Audio Only for Four
 
 You will need a Millicast account for this project.
