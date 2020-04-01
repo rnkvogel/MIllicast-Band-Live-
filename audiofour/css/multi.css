@@ -1,0 +1,120 @@
+html, body 
+{ height:100%;
+ margin:0;
+ padding:0; 
+	}                                   /* Important to make sure your divs have room to grow in the document */
+#title { background: lightgreen}
+#dividedbox { position: relative; width:100%; height:100%}   /* Important to make sure your divs have room to grow in the document */
+.quarter {position: absolute; width:50%; height:50%; display: flex; justify-content: center; align-items: center;}
+#box1 {
+ top:0;
+left:0;
+  background-image: url("../images/audio.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: "100%"; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */  }
+#box2 { 
+top:0;
+left:50%;
+background: lightblue;
+ background-image: url("../images/audio.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: "100%"; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */  }
+#box3 { 
+top:50%;
+left:0;
+background:green;
+ background-image: url("../images/audio.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: "100%"; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */  }      
+#box4 { 
+top:50%;
+left:50%;
+ background-image: url("../images/audio.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: "100%"; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */ ;
+
+}
+#buttonGo1 {
+	    position:absolute;
+        top:0%; 
+        left:0%;
+        background-color: #404142;
+        opacity: .8;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        margin:10px
+    }
+#buttonGo1:focus{
+background-color:#a1a6ab;
+opacity: .2;
+  }       
+#buttonGo2 {
+	    position:absolute;
+        top:0%; 
+        left:0%;
+        background-color: #404142;
+        opacity: .8;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        margin:10px
+    }
+#buttonGo2:focus{
+background-color:#a1a6ab;
+opacity: .2;
+  }
+  #buttonGo3 {
+	    position:absolute;
+        top:0%; 
+        left:0%;
+        background-color: #404142;
+        opacity: .8;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        margin:10px
+    }
+#buttonGo3:focus{
+background-color:#a1a6ab;
+opacity: 0.3;
+  } 
+  #buttonGo4 {
+	    position:absolute;
+        top:0%; 
+        left:0%;
+        background-color: #404142;
+        opacity: 0.8;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        margin:10px
+    }
+#buttonGo4:focus{
+background-color:#a1a6ab;
+opacity: 0.2;
+  }  
+
+
+
+ 
