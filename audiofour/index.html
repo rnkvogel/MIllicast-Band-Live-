@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Millicast Multiple Audio</title>
+  <link rel="stylesheet" href="css/multi.css">
+  <script src="js/publisher.js"></script>
+</head>
+<body>
+  <div id="dividedbox">
+    <div class="quarter" id="box1" >
+    <iframe  id="user1" src="" frameborder="0" scrolling="no" width="100%" height="100%" >
+    </iframe> 
+    <input type="button" id="buttonGo1" onclick="switchSrc1()" value="Audio1"  />
+    </div>
+
+    <div class="quarter" id="box2">
+     <iframe id="user2"  src="" frameborder="0" scrolling="no" width="100%" height="100%">
+    </iframe>
+     <input type="button" id="buttonGo2" onclick="switchSrc2()" value="Audio2"  /> 
+    </div>
+
+    <div class="quarter" id="box3">
+     <iframe id="user3"  src="" frameborder="0" scrolling="no" width="100%" height="100%">
+     </iframe>
+    <input type="button" id="buttonGo3" onclick="switchSrc3()" value="Audio3"  />  
+    </div>​
+
+    <div class="quarter" id="box4">
+     <iframe id="user4" src="" frameborder="0" scrolling="no" width="100%" height="100%">
+    </iframe>
+      <input type="button" id="buttonGo4" onclick="switchSrc4()" value="Audio4"  />   	
+    </div>
+  </div>
+</body>
+
+</html>
